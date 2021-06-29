@@ -1,0 +1,436 @@
+*{
+    font-size: 1.2rem;
+}
+ 
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#background{
+    background-image: url(../assets/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 2131px;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    bottom: 52px;
+}
+
+.intro{
+    top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 15px;
+    font-size: 18px;
+    z-index: 1;
+}
+
+#img{
+    position: relative;
+    top: 5px;
+}
+
+.logo{
+    font-size: 1.5rem;
+    float: left;
+    color: white;
+    margin: 0 0 0 5px;
+    position: relative;
+    bottom: 2px;
+}
+
+.mainLink{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Comfortaa', cursive;
+    position: relative;
+    top: 3px;
+}
+
+.mainLink:visited{
+    color: inherit;
+}
+
+.menu{
+    list-style: none;
+    font-family: 'Comfortaa', cursive;
+    margin: 0 25px 0 0;
+    padding: 0;
+    float: right;
+    position: relative;
+    top: 7px;
+}
+
+.linkmenu{
+    text-decoration: none;
+    color: white;
+}
+
+.linkmenu:visited{
+    color: inherit;
+}
+
+.linkmenu:hover{
+    color: gray;
+}
+
+li{
+    display: inline-block;
+    color: white;
+    margin-right: 15px;
+}
+
+.welcome{
+    color: white;
+    margin: auto;
+    width: 11cm;
+    position: relative;
+    right: 230px;
+    top: 300px;
+    height: 5cm;
+    padding-bottom: 0;
+}
+
+.title{
+    font-weight: 900;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
+    margin-bottom: 0;
+    text-align: justify;
+}
+ 
+.links{
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    color: darkgoldenrod;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    transition-property: background-color, color;
+    transition-duration: 500ms;
+}
+
+.links:hover{
+    background: gray;
+    color: goldenrod;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+#introParag{
+    margin-top: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.4rem;
+}
+
+#sideImg{
+    float: right;
+    position: relative;
+    right: 140px;
+    top: 290px;
+    border: 2px solid gray;
+    border-radius: 12px;
+}
+
+.grayBackground{
+    background-color: gray;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    bottom: 75px;
+}
+
+.textPresentation{
+    font-family: 'Comfortaa', cursive;
+    margin-top: 0;
+    width: 400px;
+    text-align: left;
+    position: relative;
+    left: 330px;
+    top: 138px;
+}
+
+#bakeryImg1{
+    position: relative;
+    bottom: 274px;
+    left: 771px;
+    border: solid 2px black;
+    border-radius: 12px;
+}
+
+#bakeryImg2{
+    position: relative;
+    bottom: 227px;
+    left: 785px;
+    border: solid 2px black;
+    border-radius: 12px;
+}
+
+.woodBg{
+    background-image: url(../assets/woodplank.jpg);
+    width: 1901px;
+    background-repeat: cover;
+    height: 600px;
+    position: relative;
+    bottom: 75px;
+    border: solid 1px black;
+}
+
+.cheesebread{
+    position: relative;
+    top: 55px;
+    left: 290px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.cake{
+    position: relative;
+    bottom: 392px;
+    left: 790px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.cookie{
+    position: relative;
+    bottom: 840px;
+    left: 1217px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.name1{
+    font-family:'Comfortaa', cursive;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 505px;
+    left: 380px;
+    padding: 5px;
+    border: solid 2px white;
+    border-radius: 12px;
+}
+
+.name2{
+    font-family:'Comfortaa', cursive;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    bottom: 804px;
+    left: 932px;
+    padding: 5px;
+    border: solid 2px white;
+    border-radius: 12px;
+}
+
+.name3{
+    font-family:'Comfortaa', cursive;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    bottom: 804px;
+    left: 980px;
+    padding: 5px;
+    border: solid 2px white;
+    border-radius: 12px;
+}
+
+.name4{
+    font-family:'Comfortaa', cursive;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 505px;
+    left: 400px;
+    padding: 5px;
+    border: solid 2px white;
+    border-radius: 12px;
+}
+
+.name5{
+    font-family:'Comfortaa', cursive;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    bottom: 804px;
+    left: 922px;
+    padding: 5px;
+    border: solid 2px white;
+    border-radius: 12px;
+}
+
+.name6{
+    font-family:'Comfortaa', cursive;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    bottom: 804px;
+    left: 963px;
+    padding: 5px;
+    border: solid 2px white;
+    border-radius: 12px;
+}
+
+.chocolate{
+    position: relative;
+    top: 55px;
+    left: 290px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.licor{
+    position: relative;
+    bottom: 840px;
+    left: 1197px;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.blackBg{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    bottom: 75px;
+}
+
+#filosofiaImg{
+    position: relative;
+    top: 45px;
+    left: 321px;
+}
+
+.filosofiaTxt{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 700px;
+    width: 900px;
+    text-align: justify;
+    display: inline-block;
+}
+
+#subTitle{
+    font-size: 2.5rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+#brownBg{
+    background-color: burlywood;
+    width: 100%;
+    height: 560px;
+    position: relative;
+    bottom: 98px;
+}
+
+#visitTitle{
+    font-size: 2.5rem;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    position: absolute;
+    top: 17px;
+    left: 9%;
+}
+
+.adress{
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    top: 96px;
+}
+
+#map1{
+    width: 490px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 47px;
+    left: 350px;
+    border: solid 2px black;
+    border-radius: 15px;
+}
+
+#map2{
+    width: 498px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 47px;
+    left: 360px;
+    border: solid 2px black;
+    border-radius: 15px;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 160px;
+    position: relative;
+    bottom: 98px;
+    color: white;
+}
+
+.footerContact{
+    position: relative;
+    bottom: 15px;
+    left: 200px;
+    display: inline-block;
+}
+
+#finalLogo{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 492px ;
+    top: 39px;
+}
+
+#email{
+    text-decoration: none;
+    color: white;
+}
+
+#email:visited{
+    color: inherit;
+}
+
+.social{
+    position: relative;
+    left: 975px;
+    bottom: 20px;
+    display: inline-block;
+}
+
+@media screen and (min-width: 1845px) {
+    #sideImg{
+        position: relative;
+        right: 420px;
+    }
+ }
+
+ @media screen and (max-width: 1440px) {
+    #map1{
+        width: 330px;
+        top: -151px;
+        left: 450px;
+    }
+
+    #map2{
+        width: 330px;
+        top: 120px;
+        left: 110px;
+    }
+ }
